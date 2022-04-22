@@ -11,16 +11,9 @@ int main ()
 
    for(i=1;i<=X;i++)
    {
-      for(j=1;j<=X;j++)
+      for(j=1;j<=i;j++)
        {
-         if(i>=j)
-         {
-            printf(" * ");
-         }
-         else 
-         {
-             printf("   ");
-         }
+         printf(" * ");
        }
           printf("\n");
     }
